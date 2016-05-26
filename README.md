@@ -5,8 +5,8 @@
 * [Como usar](#Como Usar)
 
 ### Historia
- Hace tiempo con [@Mausarde][1] estuvimos viendo que era demasiado molesto andar eliminando una a una las sesiones que automaticamente un bot de un usuario generaba en TSM manager.  
- Por lo que [@Mausarde][1] diseñó una consulta en la base de datos del servidor para listar las sesiones, a la vez que se pasaba a un excel que formateaba la salida y asi con el uso de ````copy & paste ```` eliminar una a una las molestas sesiones.  
+ Hace tiempo con [@Mausarde](https://twitter.com/Mausarde) estuvimos viendo que era demasiado molesto andar eliminando una a una las sesiones que automaticamente un bot de un usuario generaba en TSM manager.  
+ Por lo que [@Mausarde](https://twitter.com/Mausarde) diseñó una consulta en la base de datos del servidor para listar las sesiones, a la vez que se pasaba a un excel que formateaba la salida y asi con el uso de ````copy & paste ```` eliminar una a una las molestas sesiones.  
  Asi que un dia decidí automatizar el proceso e instalamos el cliente TSM en un servidor linux que tenemos de pruebas y mediante el administrador de line de comando del cliente se eliminan las sesiones
 
 ### A considerar
@@ -33,9 +33,7 @@ para facilitar tambien recomiendo crear el cron con la siguiete programacion, so
 
 consultas a las siguientes cuentas
 
-+ Salvador Maureira [@Mausarde][1] Query, sesiones y TSM manager
-+ Nicolas Martinez [@_nmartinezv][2] Script, aplicaciones y automatizacion
++ Salvador Maureira B [@Mausarde](https://twitter.com/Mausarde) Query, sesiones y TSM manager
++ Nicolas Martinez V [@_nmartinezv](https://twitter.com/_nmartinezv) Script, aplicaciones y automatizacion
 
 
- [1]:(https://twitter.com/Mausarde)
- [2]:(https://twitter.com/_nmartinezv)
