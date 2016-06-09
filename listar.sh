@@ -15,11 +15,7 @@ CUENTA="" ##credenciales TSM
 PASSWORD="" ##credenciales TSM
 LIMPIO="out.log"
 NEW_LIMPIO="limpio.log"
-CORREO="/tmp/correotmp"
-DESTINO="correos separados por coma"
-SERVER="" ##nombre del equipo que ejecuta
-ASUNTO="Sesiones Eliminadas en TSM"
-LINEAS=$(wc -l $NEW_LIMPIO | cut -f1 -d' ')
+
 
 
 ## VACIAR DOCUMENTOS
@@ -42,6 +38,12 @@ do
 done < $NEW_LIMPIO
 
 ## ENVIO CORREO DE AVISO
+CORREO="/tmp/correotmp"
+DESTINO="correos separados por coma"
+SERVER="" ##nombre del equipo que ejecuta
+ASUNTO="Sesiones Eliminadas en TSM"
+LINEAS=$(wc -l $NEW_LIMPIO | cut -f1 -d' ')
+
 
 echo "From: $SERVER" >> $CORREO
 echo "To: $DESTINO" >> $CORREO
